@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 85%;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 120%;
+    background-image: linear-gradient(rgb(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)), url(gallery-8.jpg);
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.form-box {
+
+    width: 30%;
+    height: 110%;
+    margin: 50px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    margin-block: 220%;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.headerAD h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+
+.headerAD h2::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+.headerAD {
+    width: 30%;
+    height: 13%;
+    margin: -630px 20px 0px 900px;
+    color: #3c00a0;
+    background: white;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+
+.btn-field{
+    margin-top: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-field button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+
+.input-group{
+    height: 280px;
+}
+.btnA {
+    margin-block-end: 70%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3c00a0;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnA2 {
+    margin-block-end: 60%;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3c00a0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #282828;
+
+}
+
+  
+
+h1 {
+    position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+	color: #992828;
+    
+}
+
+
+ul {
+    width: auto;
+    float: right;
+    margin-top: 8px;
+
+}
+
+li {
+    display: inline-block;
+    padding: 15px 15px;
+
+}
+
+a {
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+
+}
+
+.headerA {
+    width: 30%;
+    margin: 60px 20px 0px 50px;
+    color: white;
+    background: #992828;
+    text-align: center;
+    border: 2px solid #992828;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+
+.xd {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+/*.Aform {
+    width: 30%;
+    height: 30%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    border-radius: 0px 0p00px 10px;
+}**/
+.delete {
+    width: 30%;
+    height: 30%;
+    margin: 0px 20px 0px 900px;
+    padding: 20px;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+
+
+
